@@ -3,10 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>marvel rivals</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css.css">
 </head>
 <body>
-    <h1>NO SE</h1>
-    <h3>uesco</h3>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Marvel Rivals</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a  href="./rivales.html" class="nav-link">Rivales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./rivales.html">personajes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="hero-banner text-center">
+        <div class="container">
+            <h1>Marvel Rivals</h1>
+            <p>Descubre los personajes más poderosos del universo Marvel </p>
+        </div>
+    </header>
+    <div id="rivales" class="container py-5">
+        <h2 class="text-center mb-4 text-white">Los Rivales Más Famosos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card rival-card">
+                    <img src="./img/Iron-Man.avif" class="card-img-top" alt="Iron Man">
+                    <div class="card-body">
+                        <h5 class="card-title">Iron Man</h5>
+                        <p class="card-text">Un genio millonario y un experto en tecnología con una armadura avanzada.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card rival-card">
+                    <img src="./img/capi.avif" class="card-img-top" alt="Capitán América">
+                    <div class="card-body">
+                        <h5 class="card-title">Capitán América</h5>
+                        <p class="card-text">Un supersoldado con un escudo indestructible y un fuerte sentido de la justicia.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card rival-card">
+                    <img src="./img/thor.avif" class="card-img-top" alt="Thor">
+                    <div class="card-body">
+                        <h5 class="card-title">Thor</h5>
+                        <p class="card-text">El dios del trueno, con su martillo Mjolnir y poderes divinos.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="contacto" class="container py-5 text-center text-white">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta, ¡no dudes en ponerte en contacto con nosotros!</p>
+        <a href="mailto:info@marvelrivals.com" class="btn btn-primary">Envíanos un correo</a>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Marvel Rivals. Todos los derechos reservados.</p>
+        <div>
+            <a href="https://twitter.com/" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+            <a href="https://facebook.com/" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com/" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
 </body>
 </html>

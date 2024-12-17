@@ -1,0 +1,78 @@
+
+body{
+    background-image: url(./img/fondo3.avif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.hero-banner {
+    background-size: cover;
+    color: white;
+    padding: 50px 0;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+.rival-card {
+    margin-bottom: 30px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.rival-comparison {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.rival-comparison img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.rival-comparison h3 {
+    text-align: center;
+    width: 100%;
+}
+
+.rival-comparison .btn {
+    width: 100%;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.hero-banner {
+    background-image: url('https://example.com/hero-banner.jpg');
+    background-size: cover;
+    color: white;
+    padding: 50px 0;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 250px;
+}
+
+.personaje-card {
+    margin-bottom: 30px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.text-center h2 {
+    margin-bottom: 30px;
+}
